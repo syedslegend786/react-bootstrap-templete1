@@ -1,0 +1,25 @@
+.section__icon{
+    color: white;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+.section__heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section__heading h1{
+    font-weight: bold;
+}
+.section__heading h1::after{
+    content: '';
+    display: block;
+    margin: 20px auto;
+   background-color: tomato;
+   height: 3px;
+   width: 20%;
+}
+@media (max-width: 575.98px){
+    .news__card{
+        margin-bottom: 25px;
+    }
+}

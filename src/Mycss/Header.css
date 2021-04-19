@@ -1,0 +1,17 @@
+.header{
+    background-color: #e74c3c;
+    color: white;
+}
+.header__ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.header__ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+.header__ul li a:hover{
+    background-color: #c0392b;
+}
