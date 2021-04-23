@@ -4,9 +4,10 @@ import '../Mycss/Header.css';
 function Header() {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Navbar.Brand href="#home">Onclick</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
+
+            {/* <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
                     <Nav.Link href="#features">Features</Nav.Link>
                     <Nav.Link href="#pricing">Pricing</Nav.Link>
@@ -24,7 +25,7 @@ function Header() {
                         Dank memes
       </Nav.Link>
                 </Nav>
-            </Navbar.Collapse>
+            </Navbar.Collapse> */}
         </Navbar>
     )
 }

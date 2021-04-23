@@ -13,8 +13,8 @@ function Banner() {
             <Container>
                 <Row>
                     <Col className='banner__text p-5' md={6}>
-                        <h1>Some Text</h1>
-                        <p className='text-light p-3 '  >I would love to know why this works. I tested my site with Chrome, Chromium, Safari, Firefox</p>
+                        <h1>Onclick</h1>
+                        <p className='text-light p-3 '  >Onclick website is the plateform where you will be paid if your click on certain things</p>
                     </Col>
                 </Row>
             </Container>
